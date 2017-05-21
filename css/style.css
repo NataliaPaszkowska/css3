@@ -1,26 +1,42 @@
 /* selektor znacznika*/
+
 p {
     color: orange
 }
+
+
 /* selektor id */
 
 #paragraph {
     color: blue
 }
+
+
 /* selektor klasy */
 
 .powitanie {
     color: deeppink
 }
 
+
 /* laczenie selektorow */
-a, 
-span, 
-div 
-{
+
+a,
+span,
+div {
     color: forestgreen
 }
 
+
 /* selektor bezposredniego elementu potomnego */
 
-li > a {color: greenyellow}
+li>a {
+    color: greenyellow
+}
+
+
+/* selektor elementow potomnych */
+
+div a {
+    color: hotpink
+}
