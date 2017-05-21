@@ -55,8 +55,9 @@ h4 ~ p {color: chocolate}
 ul > li:not(.elo) {color: darkslateblue}
 
 /* Selektor kolejnego elemetu potomnego */
+/* an+b -> 2n+0 - co drugie bedzie kolorowane */
 
-ol > li:nth-child(2n+0) {color: aquamarine}
+ol > li:nth-child(2n+1) {color: aquamarine}
 
 
 
