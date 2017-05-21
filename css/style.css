@@ -4,3 +4,6 @@ p {color: orange}
 #paragraph {color: blue}
 /* selektor klasy */
 .nowaklasa {color: deeppink}
+
+/* laczenie selektorow */
+a, span, div {color: forestgreen}
