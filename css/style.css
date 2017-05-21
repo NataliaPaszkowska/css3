@@ -46,5 +46,7 @@ div a {
 
 h2 + h3 {color: dimgray}
 
+/* selektor rodzenstwa */
 
+h4 ~ p {color: chocolate}
 
