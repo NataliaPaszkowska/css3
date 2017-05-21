@@ -50,3 +50,30 @@ h2 + h3 {color: dimgray}
 
 h4 ~ p {color: chocolate}
 
+/* selektor wykluczajacy */
+
+ul > li:not(.elo) {color: darkslateblue}
+
+/* Selektor kolejnego elemetu potomnego */
+
+ol > li:nth-child(2n+0) {color: aquamarine}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
