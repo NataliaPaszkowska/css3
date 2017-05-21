@@ -55,7 +55,16 @@ h4 ~ p {color: chocolate}
 ul > li:not(.elo) {color: darkslateblue}
 
 /* Selektor kolejnego elemetu potomnego */
-/* an+b -> 2n+0 - co drugie bedzie kolorowane */
+/* an+b -> 2n+0 - co drugie bedzie kolorowane 
+An+b - 
+
+a - dowolona liczba - co kt elemnt chcesz zaznaczyc
+b - dowolna liczba
+n - licznik od 0
+
+even/odd
+
+*/
 
 ol > li:nth-child(2n+1) {color: aquamarine}
 
