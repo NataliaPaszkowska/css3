@@ -1,9 +1,26 @@
 /* selektor znacznika*/
-p {color: orange}
+p {
+    color: orange
+}
 /* selektor id */
-#paragraph {color: blue}
+
+#paragraph {
+    color: blue
+}
 /* selektor klasy */
-.nowaklasa {color: deeppink}
+
+.powitanie {
+    color: deeppink
+}
 
 /* laczenie selektorow */
-a, span, div {color: forestgreen}
+a, 
+span, 
+div 
+{
+    color: forestgreen
+}
+
+/* selektor bezposredniego elementu potomnego */
+
+li > a {color: greenyellow}
